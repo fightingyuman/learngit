@@ -13,6 +13,12 @@ These commands can be used without internet, can modify workspace, stage, master
 `git reset --hard <version-id>` to revert to version.
 `git checkout -- <file-name>` to discard changes from stage.
 
+in git, HEAD is a pointer to master as default. use:
+```sh
+git checkout -b dev
+```
+can create a branch dev, switch into it to make HEAD pointer to dev.
+
 ## remote commands
 These commands can be used to push to or pull from remote repository.
 
